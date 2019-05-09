@@ -47,7 +47,7 @@ This dataset contains 133 different breeds of dogs and is already split into tra
 * tensorflow-estimator==1.13.0
 * Theano==1.0.2
 
-Please take a look at requirement.txt file for more detailed list
+Please take a look at `requirement.txt` file for more detailed list
 
 ## Instructions to run the web application
 
@@ -63,7 +63,7 @@ The Convolutional Neural Network is trained on 133 different dog breeds:
 
 ![demo-2](result.png)
 
-## Instructions
+## Steps to run the web app
 
 1. Clone the repository.
 ```	
