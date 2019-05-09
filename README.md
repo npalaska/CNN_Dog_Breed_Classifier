@@ -67,7 +67,7 @@ The Convolutional Neural Network is trained on 133 different dog breeds:
 
 1. Clone the repository.
 ```	
-git clone https://github.com/npalaska/dog-breed-classifier.git
+https://github.com/npalaska/CNN_Dog_Breed_Classifier.git
 cd dog-breed-classifier
 ```
 
