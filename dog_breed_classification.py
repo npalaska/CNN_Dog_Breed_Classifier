@@ -5,6 +5,7 @@ from werkzeug import secure_filename
 import os
 
 # python dog_breed_classification.py
+# Running on http://127.0.0.1:5000/
 
 IMG_FOLDER = 'static/img'
 
