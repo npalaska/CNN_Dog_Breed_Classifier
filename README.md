@@ -117,14 +117,17 @@ steps:
     augmentation only assisted with reducing the loss function values but did not helped in improving the accuracy
     itself.
    
-     
-Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)
+* Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)
     * To improve the accuracy I experimented with multiple bottleneck features such as VGG16, Inception and Xception, 
     however, I found out that bottleneck features from Xception greatly improves our accuracy to around 83%
     * I have pre-trained the model and already saved the model weights in `saved_models` folder for later use 
     in the web application
     
 
-Step 5: Written an algorithm for dog breed classification
+* Step 5: Written an algorithm for dog breed classification
 
-Step 6: Algorithm testing
+* Step 6: Algorithm testing
+
+## Acknowledgements
+This dataset is provided by Udacity and this work is done under Udacity guidelines as a part of data science capstone 
+project.
