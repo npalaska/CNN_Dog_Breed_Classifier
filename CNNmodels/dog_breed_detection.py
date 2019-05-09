@@ -3,6 +3,7 @@
 
 import numpy as np
 from glob import glob
+import pickle
 from CNNmodels.util import path_to_tensor, extract_Xception
 from keras.layers import GlobalAveragePooling2D
 from keras.layers import Dropout, Dense
@@ -37,7 +38,9 @@ class DogBreedClassifier:
         return xception_model
 
     def Xception_predict_breed(self):
-        dog_names = [item[20:-1] for item in sorted(glob("data/dogImages/train/*/"))]
+        #dog_names = [item[20:-1] for item in sorted(glob("data/dogImages/train/*/"))]
+        with open('DogBreeds', 'rb') as fp:
+            dog_names = pickle.load(fp)
         print(len(dog_names))
         print(dog_names)
         xception_model = self.compile_model()
