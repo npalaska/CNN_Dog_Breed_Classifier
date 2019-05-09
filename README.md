@@ -85,7 +85,7 @@ pip install -r requirements.txt
 4. Start the app locally 
 
 ```
-python dog-project.py
+python dog_breed_classification.py
 ```
 
 ## Overview of dog_app jupyter notebook
